@@ -1,0 +1,34 @@
+{
+  "name": "strikejs-preact",
+  "version": "1.0.0",
+  "description": "A state management framework for PreactJS applications. ",
+  "main": "lib/index.js",
+  "types": "strikejs-preact.d.ts",
+  "typings": "strikejs-preact.d.ts",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strike-js/strike-preact.git"
+  },
+  "keywords": [
+    "State",
+    "Management",
+    "ReactJS",
+    "TypeScript"
+  ],
+  "author": "Suhail Abood <suhail.abood@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strike-js/strike-preact/issues"
+  },
+  "homepage": "https://github.com/strike-js/strike-preact#readme",
+  "dependencies": {
+    "preact": "^8.1.0"
+  },
+  "devDependencies": {
+    "fuse-box": "^1.3.131",
+    "typescript": "^2.3.2"
+  }
+}
